@@ -1,0 +1,24 @@
+<form>
+        <div class="form-group" class="form-control">
+          <label for="nameBox">Name</label><br>
+          <p id="visible-error"></p>
+          <input placeholder="Your text here" type="text" id="nameBox" required="required" minlength=3 name="name" style="resize:none" cols="40" rows="1">
+        </div>
+        <div class="form-group" class="form-control">
+          <label for="phoneBox">Phone number (Optional)</label><br>
+          <input placeholder="Your phone number here" type="tel" id="phoneBox" name="phone" style="resize:none" cols="40" rows="1">
+        </div>
+        <div class="form-group" class="form-control">
+          <label for="emailBox">Email address</label><br>
+          <input placeholder="Your e-mail here" type="email" id="emailBox" class="emailBox" required="required" name="email" style="resize:none" cols="40" rows="1">
+        </div>
+        <div class="form-group" class="form-control">
+          <label for="messageBox">Your Message</label><br>
+          <textarea placeholder="Your message here" class="messageBox" style="resize:none" cols="40" rows="4" class="form-control" name="message"></textarea>
+          <p id="char-count">
+          <p id="visible-comment"></p>
+        </div>
+        <div class="button"> 
+          <button type="submit" class="btn btn-default btn-lg" id="button">Submit</button>
+        </div>
+      </form>
